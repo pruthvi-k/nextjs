@@ -19,3 +19,12 @@
 body {
   color: rgb(var(--foreground-rgb));
 }
+
+
+.formControl {
+  position: relative;
+}
+
+.hasData label {
+  transform: translate(0, -100%);
+}
